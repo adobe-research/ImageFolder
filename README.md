@@ -145,6 +145,8 @@ torchrun --nproc_per_node=8 inference.py --infer_ckpt /path/to/ckpt --data_path 
 	<img src=assets/visualization.png/>
 </div>
 
+## License
+[Adobe Research License](LICENSE.md)
 
 ## Acknowledge
 We would like to thank the following repositories: [LlamaGen](https://github.com/FoundationVision/LlamaGen), [VAR](https://github.com/FoundationVision/VAR) and [ControlVAR](https://github.com/lxa9867/ControlVAR).
