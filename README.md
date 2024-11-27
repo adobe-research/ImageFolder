@@ -28,13 +28,11 @@
 
 We provide pre-trained tokenizers for image reconstruction on ImageNet.
 
-![image](https://github.com/user-attachments/assets/d4c81ae5-e9a0-4f45-bec5-2a4db870818f)
-
-| Training  | Eval | Codebook Size | rFID ↓  | Link | Resolution | Note |
+| Training  | Eval | Codebook Size | rFID ↓  | Link | Resolution | Utilization |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  
-| ImageNet | ImageNet | 4096 | 0.80 | [Huggingface](https://huggingface.co/ang9867/imagefolder/resolve/main/imagenet-4096.pt?download=true) | 256x256 | 200 Epoch |
-| ImageNet | ImageNet | 8192 | 0.70 | [Huggingface](https://huggingface.co/ang9867/imagefolder/resolve/main/imagenet-8192.pt?download=true) | 256x256 | 200 Epoch |
-| ImageNet | ImageNet | 16384 | 0.67 | [Huggingface](https://huggingface.co/ang9867/imagefolder/resolve/main/imagenet-16384.pt?download=true) | 256x256 | 200 Epoch |
+| ImageNet | ImageNet | 4096 | 0.80 | [Huggingface](https://huggingface.co/ang9867/imagefolder/resolve/main/imagenet-4096.pt?download=true) | 256x256 | 100% |
+| ImageNet | ImageNet | 8192 | 0.70 | [Huggingface](https://huggingface.co/ang9867/imagefolder/resolve/main/imagenet-8192.pt?download=true) | 256x256 | 100% |
+| ImageNet | ImageNet | 16384 | 0.67 | [Huggingface](https://huggingface.co/ang9867/imagefolder/resolve/main/imagenet-16384.pt?download=true) | 256x256 | 100% |
 
 ---
 
