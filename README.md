@@ -26,7 +26,7 @@
 
 ## Model Zoo
 
-We provide pre-trained tokenizers for image reconstruction on ImageNet, LAION-400M (natural image), and IMed361M (multimodal medical image) 256x256 resolution.
+We provide pre-trained tokenizers for image reconstruction on ImageNet.
 
 ![image](https://github.com/user-attachments/assets/d4c81ae5-e9a0-4f45-bec5-2a4db870818f)
 
@@ -35,8 +35,6 @@ We provide pre-trained tokenizers for image reconstruction on ImageNet, LAION-40
 | ImageNet | ImageNet | 4096 | 0.80 | [Huggingface](https://huggingface.co/ang9867/imagefolder/resolve/main/imagenet-4096.pt?download=true) | 256x256 | 200 Epoch |
 | ImageNet | ImageNet | 8192 | 0.70 | [Huggingface](https://huggingface.co/ang9867/imagefolder/resolve/main/imagenet-8192.pt?download=true) | 256x256 | 200 Epoch |
 | ImageNet | ImageNet | 16384 | 0.67 | [Huggingface](https://huggingface.co/ang9867/imagefolder/resolve/main/imagenet-16384.pt?download=true) | 256x256 | 200 Epoch |
-| LAION-400M | - | 4096 | - | [Huggingface]()| 256x256 |  about 1 Epoch |
-| IMed361M | - | 4096 | - | [Huggingface](https://huggingface.co/ang9867/imagefolder/resolve/main/IMed361M.pt?download=true) | 256x256 | 200 Epoch + load imagenet ckpt |
 
 ---
 
