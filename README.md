@@ -19,7 +19,7 @@
 
 
 ## Updates 
-- (2024.11.14) Code will be released in two weeks (company approval in progress).
+- (2024.12.02) Code released.
 - (2024.10.03) We are working on advanced training for the ImageFolder tokenizer. 
 - (2024.10.01) Repo created. Code and checkpoints will be released soon.
 
