@@ -25,9 +25,10 @@ import torch.nn.functional as F
 from tokenizer.vqgan.cliploss import ClipLoss
 from timm.models import create_model
 
-import sys
+import sys, os
 from math import sqrt
-sys.path.append('/home/xiangl/LlamaGen')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.abspath(os.path.join(current_dir, '../..'))
 
 from quant import VectorQuantizer2
 from tokenizer.tokenizer_image.dino_enc.dinov2 import DINOv2Encoder, DINOv2Decoder
