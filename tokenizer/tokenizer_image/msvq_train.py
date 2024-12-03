@@ -34,16 +34,18 @@ from PIL import Image
 from tqdm import tqdm
 import ruamel.yaml as yaml
 
-import os
 import time
 import argparse
 from glob import glob
 from copy import deepcopy
-import sys
 import math
 import numpy as np
 
-sys.path.append('/home/xiangl/LlamaGen')
+import sys, os
+from math import sqrt
+current_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.abspath(os.path.join(current_dir, '../..'))
+
 from utils.logger import create_logger
 from utils.distributed import init_distributed_mode
 from utils.ema import update_ema, requires_grad
