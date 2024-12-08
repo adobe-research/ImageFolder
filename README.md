@@ -19,7 +19,7 @@
 
 
 ## Updates 
-- (2024.12.02) Code released.
+- (2024.12.02) Code released. Also try our new work [XQ-GAN](https://github.com/lxa9867/ImageFolder) for more extensions of ImageFolder.
 - (2024.10.03) We are working on advanced training for the ImageFolder tokenizer. 
 - (2024.10.01) Repo created. Code and checkpoints will be released soon.
 
