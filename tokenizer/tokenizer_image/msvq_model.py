@@ -32,8 +32,6 @@ project_root = os.path.abspath(os.path.join(current_dir, '../..'))
 
 from quant import VectorQuantizer2
 from tokenizer.tokenizer_image.dino_enc.dinov2 import DINOv2Encoder, DINOv2Decoder
-from tokenizer.tokenizer_image.sam import build_sam_vit_encoder_b
-from tokenizer.tokenizer_image.discriminator_sam import FrozenSamSmallNoDrop
 from datasets import Denormalize
 from datasets import Normalize as ImgNormalize
 
